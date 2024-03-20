@@ -3,6 +3,12 @@
   padding: 0;
   list-style: none;
 }
+.yt{
+  margin: 0 auto;
+}
+.ytvid{
+  max-width: 100%;
+}
 .gd{
   text-shadow: 1px 5px #10106F;
 }
@@ -26,8 +32,12 @@
   font-size: 32px;
   border: 3px solid #ffaa00;
 }
+.capitalize{
+  font-variant:small-caps;
+}
 .jamdesc{
   column-count:3;
+  column-gap: 3em;
   width: 80vw;
   margin: 0 auto;
 }
@@ -102,6 +112,9 @@ h3{
 
 .title_color{
   color:#cae865;
+}
+.title_color_gd{
+  color:#fff;
 }
 .vs{
   width:23em;
